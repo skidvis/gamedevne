@@ -9,11 +9,11 @@
 %link{:href => "//cdn.rawgit.com/noelboss/featherlight/1.2.0/release/featherlight.min.css", :rel => "stylesheet", :title => "Featherlight Styles", :type => "text/css"}/
 %script{:charset => "utf-8", :src => "//cdn.rawgit.com/noelboss/featherlight/1.2.0/release/featherlight.min.js", :type => "text/javascript"}
 
-%meta{:content => "Midwest Dev Chat", :property => "og:title"}/
+%meta{:content => "Nebraska Game Developers Association", :property => "og:title"}/
 %meta{:content => "website", :property => "og:type"}/
-%meta{:content => "http://www.midwestdevchat.com/", :property => "og:url"}/
-%meta{:content => "http://www.midwestdevchat.com/emojis/simple_smile.png", :property => "og:image"}/
-%meta{:content => "Join the largest group of developers in the midwest!", :property => "og:description"}/
+%meta{:content => "http://www.gamedevne.com/", :property => "og:url"}/
+%meta{:content => "http://www.gamedevne.com/emojis/simple_smile.png", :property => "og:image"}/
+%meta{:content => "Join the largest group of game developers in the midwest!", :property => "og:description"}/
 
 = csrf_meta_tags
 %body
@@ -21,7 +21,7 @@
     %h1{style: 'padding 0 10px;'}
       = link_to image_tag('logo.png'), '/', style: 'color:#000;'
       %span.float-right{style: 'text-align: right;'}
-        = link_to 'github.com/skidvis/Midwest-Dev-Chat', 'https://github.com/skidvis/Midwest-Dev-Chat'
+        = link_to 'github.com/skidvis/gamedevne', 'https://github.com/skidvis/gamedevne'
         %h3
           = Rails.application.secrets.title
           is an invite-only,

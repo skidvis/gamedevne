@@ -11,8 +11,8 @@ require 'mina/rvm'    # for rvm support. (http://rvm.io)
 #   branch       - Branch name to deploy. (needed by mina/git)
 
 set :domain, '104.131.182.163'
-set :deploy_to, '/srv/app/midwestdevchat.com'
-set :repository, 'https://github.com/skidvis/Midwest-Dev-Chat.git'
+set :deploy_to, '/srv/app/gamedevne.com'
+set :repository, 'https://github.com/skidvis/gamedevne.git'
 set :branch, 'master'
 
 

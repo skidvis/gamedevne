@@ -1,3 +1,5 @@
+This was forked from https://github.com/skidvis/Midwest-Dev-Chat
+
 [![Stories in Ready](https://badge.waffle.io/skidvis/Midwest-Dev-Chat.png?label=ready&title=Ready)](https://waffle.io/skidvis/Midwest-Dev-Chat)
 # What is this?
 Midwest Dev Chat is an awesome group of developers (software, web, etc) from the midwest who hang out daily using the great Slack messaging app. 
